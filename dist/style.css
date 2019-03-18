@@ -1,0 +1,24 @@
+html{
+  font-family:sans-serif;
+}
+body{
+  background-color:#0d0d0d;
+  color:#e6005c;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  overflow: none;
+}
+.leftpanel{
+  color:#ff3399;
+  float:left;
+	width: 700px;
+	padding: 4px;
+	padding-right: 30px;
+}
+.rightpanel{
+  float: right;
+	width: 300px;
+	padding:2px;
+}
