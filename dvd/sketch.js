@@ -1,5 +1,5 @@
 var t;
-var c=0;
+var c = 0;
 var c1;
 
 function wc(){
@@ -10,14 +10,14 @@ function wc(){
 }
 
 function setup() {
-  createCanvas(1000, 700);
+  createCanvas(1000, 600);
   t = new Thing();
-  tak = loadImage('tak.png');
-  red = loadImage('red.png');
-  blue = loadImage('blue.png');
-  green = loadImage('green.png');
-  pink = loadImage('pink.png');
-  yell = loadImage('yell.png');
+  tak = loadImage('faces/tak.png');
+  red = loadImage('faces/red.png');
+  blue = loadImage('faces/blue.png');
+  green = loadImage('faces/green.png');
+  pink = loadImage('faces/pink.png');
+  yell = loadImage('faces/yell.png');
 }
 
 function draw() {
@@ -36,7 +36,7 @@ function draw() {
     t.yspeed = 1.5;
     wc();
   }
-  else if (t.y > 700-tak.height) {
+  else if (t.y > 600-tak.height) {
     t.yspeed = -1.5;
     wc();
   }
